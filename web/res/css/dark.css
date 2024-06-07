@@ -1,0 +1,28 @@
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+
+  overflow: hidden;
+
+  display: grid;
+  justify-items: center;
+  align-items: center;
+
+  color: var(--color);
+  background-color: var(--background-color);
+
+  /* Define colors */
+  --color: #FFF;
+  --background-color: #222228;
+  --food-color: #4F4;
+  --snake-head-color: #F8F;
+  --snake-color: #F4F;
+  --wall-color: #877;
+}
+
+canvas {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
